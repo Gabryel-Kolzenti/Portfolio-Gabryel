@@ -1,0 +1,95 @@
+html{
+  scroll-behavior:smooth
+}
+body {
+    /* background*/
+    background-color: #f2e7dc;
+
+    /* Texto */
+    color: #0D0D0D;
+    text-align: justify;
+
+    /* Alinhamento e tamanho */
+    margin: auto;
+}
+
+section{
+padding: 64px 256px;
+}
+table {
+    width: 100%;
+  }
+  td {
+    background-color: #a9d9d0;
+  }
+ td, th {
+    border: #000 solid 1px;
+    border-radius: 4px;
+  }
+  tr {
+    background-color: #038c7f;
+  }
+p {
+  text-align: justify;
+  text-indent: 50px;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+h3 {
+    color: #000;
+}
+a:link {
+    color: #f2e7dc;
+  }
+  a:visited{
+    color: #95bfb8;
+  }
+a:hover {
+  color: #025454;
+}
+a:active {
+  color: #0d0d0d;
+}
+img {
+  width: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 50px;
+}
+.bookTitle {
+  background-color: #a9d9d0;
+  color: #027373;
+  text-align: center;
+}
+#sectionHP,
+#sectionPJ,
+#sectionDQ {
+  background-color: #a9d9d0;
+}
+#header{
+background-color: #038c7f;
+color: #f2e7dc;
+padding: 20px;
+margin-bottom: 0px;
+}
+#yourLibrary{
+  text-indent: 0px;
+  text-align: center;
+}
+#sumary {
+background-color: #038c7f;
+color: #f2e7dc;
+padding: 20px;
+margin-bottom: 50px;
+border-radius: 0 0 50px 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+footer{
+  background-color: #038c7f;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
